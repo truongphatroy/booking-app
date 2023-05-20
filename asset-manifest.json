@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/booking-app/static/css/main.4ca08908.css",
+    "main.js": "/booking-app/static/js/main.0dfa1eb2.js",
+    "static/media/hotel_2.jpg": "/booking-app/static/media/hotel_2.b07fa7647776dec10cd1.jpg",
+    "static/media/hotel_search_2.jpg": "/booking-app/static/media/hotel_search_2.b07fa7647776dec10cd1.jpg",
+    "static/media/hotel_detail_5.jpg": "/booking-app/static/media/hotel_detail_5.d159f981fb91e932e7ac.jpg",
+    "static/media/hotel_detail_1.jpg": "/booking-app/static/media/hotel_detail_1.9c5546087381e1d17ccf.jpg",
+    "static/media/hotel_detail_2.jpg": "/booking-app/static/media/hotel_detail_2.27caa9be3b2a62a78ba1.jpg",
+    "static/media/hotel_detail_4.jpg": "/booking-app/static/media/hotel_detail_4.3d43d9d458c3ecdcdf85.jpg",
+    "static/media/hotel_4.jpg": "/booking-app/static/media/hotel_4.b4fabe3c854b475fd1b8.jpg",
+    "static/media/hotel_3.jpg": "/booking-app/static/media/hotel_3.51ab1eefb5776501dd3e.jpg",
+    "static/media/hotel_search_3.jpg": "/booking-app/static/media/hotel_search_3.51ab1eefb5776501dd3e.jpg",
+    "static/media/hotel_detail_3.jpg": "/booking-app/static/media/hotel_detail_3.9f7cd586afe95fb26788.jpg",
+    "static/media/city_1.webp": "/booking-app/static/media/city_1.577e61ac5d53f171791a.webp",
+    "static/media/hotel_detail_6.jpg": "/booking-app/static/media/hotel_detail_6.97f8e36d036ff05c6bd0.jpg",
+    "static/media/hotel_1.webp": "/booking-app/static/media/hotel_1.6a3d93c5b4e17dcf9afc.webp",
+    "static/media/hotel_search_1.webp": "/booking-app/static/media/hotel_search_1.f35f6827b9bd59c21569.webp",
+    "static/media/city_3.webp": "/booking-app/static/media/city_3.ec719b23a36bf32f79f1.webp",
+    "static/media/city_2.webp": "/booking-app/static/media/city_2.d383839a562eb2632bd4.webp",
+    "static/media/type_4.jpg": "/booking-app/static/media/type_4.b2efcb3f406e2c81d758.jpg",
+    "static/media/type_5.jpg": "/booking-app/static/media/type_5.eee3a0208014dfe7c609.jpg",
+    "static/media/type_2.jpg": "/booking-app/static/media/type_2.fe49efe7e06acbd546e4.jpg",
+    "static/media/type_3.jpg": "/booking-app/static/media/type_3.f09bc00908388ad03a6c.jpg",
+    "index.html": "/booking-app/index.html",
+    "main.4ca08908.css.map": "/booking-app/static/css/main.4ca08908.css.map",
+    "main.0dfa1eb2.js.map": "/booking-app/static/js/main.0dfa1eb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ca08908.css",
+    "static/js/main.0dfa1eb2.js"
+  ]
+}
