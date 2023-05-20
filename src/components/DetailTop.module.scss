@@ -1,0 +1,30 @@
+.DetailTop {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  .DetailTop_Text {
+    .name {
+      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+    }
+    .DetailAddress {
+      margin-bottom: 0.5rem;
+    }
+    .address {
+      padding-left: 0.5rem;
+    }
+    .distance {
+      color: var(--main-background-btn);
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .price {
+      margin-bottom: 0.5rem;
+      color: green;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.cityList {
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  .CityListFrame {
+    position: relative;
+    margin: 1rem;
+
+    .imageName {
+      position: absolute;
+      font-size: 2rem;
+      bottom: 20%;
+      left: 2rem;
+      color: var(--main-font-color);
+    }
+    .imageSubText {
+      position: absolute;
+      bottom: 13%;
+      font-size: 1.4rem;
+      left: 2rem;
+      margin-top: 0.8rem;
+      color: var(--main-font-color);
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .cityList {
+    flex-wrap: wrap;
+    margin-top: 10rem;
+  }
+}

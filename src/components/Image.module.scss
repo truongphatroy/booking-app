@@ -1,0 +1,20 @@
+.cityImageStyle {
+  position: relative;
+  img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+}
+.HotelTypeStyle {
+  img {
+    height: 150px;
+    width: 190px;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .cityImageStyle {
+    max-width: 22rem;
+  }
+}

@@ -1,0 +1,16 @@
+.SearchPopup {
+  background-color: #febb02;
+  grid-column: 1 / 2;
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-top: 0.5rem;
+  height: 500px;
+  .SearchFrame {
+    margin: 0.5rem;
+    color: rgb(65, 64, 64);
+    p {
+      margin-top: 0.5rem;
+      font-weight: 700;
+    }
+  }
+}

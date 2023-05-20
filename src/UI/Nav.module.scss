@@ -1,0 +1,185 @@
+:root {
+  --main-font-color: whitesmoke;
+  --main-background-color: #003580;
+  --main-background-btn: #2973db;
+}
+.HomeStyle {
+  background-color: var(--main-background-color);
+  .nav {
+    padding: 1rem;
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+    .navBar {
+      // logo and register/login btn
+      .logoAndBtn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // booking website
+        h1 {
+          color: var(--main-font-color);
+          font-weight: 400;
+          font-size: 1.6rem;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        // button
+        .NavbarBtnStyle {
+          margin-right: 1.5rem;
+          .RegLogBtn {
+            padding: 0.6rem;
+            margin-left: 1rem;
+          }
+          @media (max-width: 612px) {
+            display: none;
+          }
+        }
+      }
+
+      // navigation bar styles
+      .navigationBar {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        @media (max-width: 600px) {
+          flex-direction: column;
+        }
+
+        // Navigation bar
+        .navbarItemContent {
+          padding-left: 0.8rem;
+          @media (max-width: 992px) {
+            font-size: 1rem;
+          }
+        }
+        // Nomal items
+        .navigation {
+          color: var(--main-font-color);
+          font-size: 1.4rem;
+          padding: 0.6rem 0.5rem;
+          font-weight: 300;
+          margin-right: 1.8rem;
+          &:hover {
+            background-color: var(--main-background-btn);
+            border-radius: 1rem;
+            cursor: pointer;
+          }
+          @media (max-width: 600px) {
+            font-size: 1.2rem;
+          }
+        }
+
+        // Active items
+        .navActive {
+          border: 1px solid var(--main-font-color);
+          border-radius: 16px;
+
+          .navbarItemContent {
+            padding-left: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  // Header
+  .header {
+    color: var(--main-font-color);
+    margin-bottom: 3rem;
+
+    .headerContent {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 3rem;
+    }
+    .headerSub {
+      font-size: 1rem;
+      margin-top: 1.3rem;
+      margin-bottom: 1.3rem;
+    }
+
+    .inputBar {
+      position: absolute;
+      bottom: 0px;
+      right: 1rem;
+      left: 1rem;
+      transform: translateY(50%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 10px;
+      border: 4px solid orange;
+      padding: 0.6rem 2rem;
+      background-color: #fff;
+      color: rgb(196, 185, 185);
+      z-index: 8;
+
+      .inputItem {
+        // flex-basis: 370px;
+        position: relative;
+
+        .inputWhere {
+          border: 0px;
+          padding-left: 0.8rem;
+          font-size: 0.9rem;
+        }
+        .inputDate {
+          border: 0px;
+          padding-left: 0.8rem;
+          font-size: 0.9rem;
+          min-width: 200px;
+        }
+        .calendarMain {
+          position: relative;
+          .calendarElement {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-30%);
+            top: 40px;
+            border: 1px solid #ccc;
+          }
+        }
+
+        .inputPeople {
+          border: 0px;
+          padding-left: 0.8rem;
+          font-size: 0.9rem;
+          min-width: 250px;
+          // margin-left: 0.5rem;
+        }
+      }
+    }
+    @media (max-width: 992px) {
+      .inputBar {
+        flex-direction: column;
+        padding: 0rem 0rem;
+        transform: translateY(80%);
+
+        .inputItem {
+          border: 4px solid orange;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          padding-left: 1rem;
+          font-size: 1.8rem;
+          width: 100%;
+        }
+        a {
+          // display: block;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 2.8rem;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+//

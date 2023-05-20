@@ -1,0 +1,10 @@
+.DetailImage {
+  display: grid;
+  margin: 1rem 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  img {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
